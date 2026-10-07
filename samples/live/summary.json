@@ -1,0 +1,51 @@
+{
+  "messages": 25,
+  "file_issues": [],
+  "decisions": {
+    "auto_resolve": 4,
+    "route_to_team": 16,
+    "human_review": 4,
+    "urgent_escalation": 1
+  },
+  "priorities": {
+    "normal": 16,
+    "high": 4,
+    "low": 4,
+    "critical": 1
+  },
+  "classifier": {
+    "llm": 24,
+    "none": 1
+  },
+  "confidence_bands": {
+    "high": 19,
+    "medium": 2,
+    "low": 4
+  },
+  "queues": {
+    "vitalis-wellness.support": 4,
+    "vitalis-wellness.retention": 1,
+    "hair-studio.front_desk": 5,
+    "voyage-travel.reservations": 1,
+    "global.trust_safety": 1,
+    "global.triage": 3,
+    "voyage-travel.sales": 2,
+    "hair-studio.community": 1,
+    "vitalis-wellness.billing": 1,
+    "vitalis-wellness.b2b_sales": 1,
+    "voyage-travel.emergency_desk": 1,
+    "vitalis-wellness.product_safety": 1,
+    "global.accounts_payable": 1,
+    "vitalis-wellness.community": 1,
+    "global.recruiting": 1
+  },
+  "tokens": {
+    "input": 3749,
+    "output": 11758,
+    "cache_read": 62512,
+    "cache_write": 31256
+  },
+  "cost_usd_total": 0.4189,
+  "cost_usd_per_1000_messages": 17.46,
+  "errors": {}
+}
